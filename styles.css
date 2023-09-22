@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F7F8FA;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #FFFFFF;
+    color: #2C3E50;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+    transition: all 0.5s ease; 
+}
+
+header:hover {
+    background-color: #ECF0F1; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #7F8C8D;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: #E74C3C;
+    transform: scale(1.1); 
+}
+
+
+main {
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2C3E50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: text-shadow 0.3s ease-in-out; 
+}
+
+h1:hover {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #7F8C8D;
+}
+
+
+footer {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    text-align: center;
+    padding: 30px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.5s ease; 
+}
+
+footer:hover {
+    background-color: #34495E; 
+}
+
+footer p {
+    margin: 0;
+}
+
+#services {
+    padding: 40px 20px;
+    background-color: #ecf0f1;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.service {
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 3em;
+    color: #E74C3C;
+}
+
+#testimonials {
+    padding: 40px 20px;
+}
+
+.testimonial {
+    text-align: center;
+    font-style: italic;
+    background-color: #EAF2F8;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.testimonial {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
