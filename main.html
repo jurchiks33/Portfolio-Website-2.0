@@ -18,6 +18,7 @@
                 <li><a href="https://www.linkedin.com/in/juris-slisans-b2227215a" target="_blank">LinkedIn</a></li>
             </ul>
         </nav>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
     </header>
     <main>
         <section id="about">
@@ -68,5 +69,10 @@
             <i class="fab fa-linkedin-in"></i>
         </a>
     </footer>
+    <script>
+        document.getElementById('darkModeToggle').addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
 </body>
 </html>
