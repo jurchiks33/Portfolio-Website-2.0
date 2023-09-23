@@ -75,6 +75,30 @@ p {
     color: #7F8C8D;
 }
 
+#about {
+    padding: 40px 0;
+    background-color: #F7F8FA;
+    text-align: center;
+}
+
+.about-text {
+    margin-bottom: 40px;
+    font-size: 1.1em;
+    color: #2C3E50;
+    line-height: 1.8;
+    text-align: justify;
+    padding: 0 10%;
+}
+
+.highlight {
+    font-weight: 600;
+    color: #404427;
+}
+
+.highlight:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 footer {
     background-color: #2C3E50;
