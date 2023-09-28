@@ -212,3 +212,13 @@ nav ul {
     margin-bottom: 0;
 }
 
+.black-background {
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 3cm;
+}
+
+.white-background {
+    background-color: #fff;
+    color: #000;
+}
