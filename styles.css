@@ -248,7 +248,6 @@ input:checked + label:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-<<<<<<< HEAD
 }
 
 .video-container {
@@ -270,6 +269,4 @@ video {
 
 nav ul {
     margin-bottom: 0;
-=======
->>>>>>> cec1950f5d5eefbe9452c644443b9ad8490d0524
 }
