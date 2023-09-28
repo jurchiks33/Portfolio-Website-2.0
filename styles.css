@@ -79,22 +79,25 @@ p {
 
 #about {
     padding: 40px 0;
-    background-color: #F7F8FA;
+    background-color: #000;
     text-align: center;
 }
 
 .about-text {
     margin-bottom: 40px;
     font-size: 1.1em;
-    color: #2C3E50;
+    color: #fff;
     line-height: 1.8;
     text-align: justify;
     padding: 0 10%;
 }
+#about h1 {
+    color: #fff;
+}
 
 .highlight {
     font-weight: 600;
-    color: #404427;
+    color: #ecf0f1;
 }
 
 .highlight:hover {
