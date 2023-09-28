@@ -19,8 +19,8 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: #FFFFFF;
-    color: #2C3E50;
+    background-color: #000;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
@@ -28,9 +28,9 @@ header {
     transition: all 0.5s ease; 
 }
 
-header:hover {
+/* header:hover {
     background-color: #ECF0F1; 
-}
+} */
 
 nav ul {
     list-style: none;
@@ -40,7 +40,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #7F8C8D;
+    color: #fff;
     text-decoration: none;
     font-weight: 500;
     padding: 8px 16px;
@@ -48,7 +48,7 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li a.active {
-    color: #E74C3C;
+    color: #5c5b59;
     transform: scale(1.1); 
 }
 
