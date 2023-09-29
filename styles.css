@@ -224,6 +224,8 @@ nav ul {
 .white-background {
     background-color: #fff;
     color: #000;
+    padding-top: 12cm;
+    padding-bottom: 15cm;
 }
 
 .image-container {
