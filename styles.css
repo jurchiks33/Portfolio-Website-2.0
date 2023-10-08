@@ -228,14 +228,25 @@ nav ul {
     padding-bottom: 15cm;
 }
 
-.image-container {
+/* .image-container {
     position: absolute;
     left: 50%;
-    bottom: -14cm;
+    bottom: -17cm;
     transform: translateX(-50%);
     width: calc(100% - 20cm);
     height: 14cm;
     overflow: hidden;
+} */
+
+.image-container {
+    position: absolute;
+    left: 50%;
+    bottom: calc(7cm - 24.5cm); 
+    transform: translateX(-50%); 
+    width: calc(100% - 900px); 
+    height: 14cm;
+    overflow: hidden;
+    z-index: 10; 
 }
 
 .image-container img {
