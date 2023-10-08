@@ -268,3 +268,9 @@ h2 {
     justify-content: space-between;
     padding: 0 20px;
 }
+
+.projects-container img {
+    width: 4cm;
+    height: 7cm;
+    object-fit: cover;
+}
