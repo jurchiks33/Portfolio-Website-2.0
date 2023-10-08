@@ -274,3 +274,7 @@ h2 {
     height: 10cm;
     object-fit: cover;
 }
+
+#favorite-projects {
+    margin-top: 5cm;
+}
