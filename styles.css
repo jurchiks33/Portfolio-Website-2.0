@@ -224,7 +224,7 @@ nav ul {
 .white-background {
     background-color: #fff;
     color: #000;
-    padding-top: 12cm;
+    padding-top: 5cm;
     padding-bottom: 15cm;
 }
 
@@ -270,7 +270,7 @@ h2 {
 }
 
 .projects-container img {
-    width: 4cm;
-    height: 7cm;
+    width: 10cm;
+    height: 10cm;
     object-fit: cover;
 }
