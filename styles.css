@@ -29,8 +29,10 @@ header {
 } */
 
 nav ul {
+    list-style: none;
     display: flex;
-    gap: 15px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 nav ul li a {
@@ -222,16 +224,6 @@ nav ul {
     padding-bottom: 15cm;
 }
 
-/* .image-container {
-    position: absolute;
-    left: 50%;
-    bottom: -17cm;
-    transform: translateX(-50%);
-    width: calc(100% - 20cm);
-    height: 14cm;
-    overflow: hidden;
-} */
-
 .image-container {
     position: absolute;
     left: 50%;
@@ -260,7 +252,18 @@ h2 {
 .projects-container {
     display: flex;
     justify-content: space-around;
-    padding: 0 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.project {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .projects-container img {
