@@ -104,6 +104,11 @@ p {
     animation: shine 5s linear infinite;
 }
 
+@keyframes shine {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+}
+
 .highlight {
     font-weight: 600;
     color: #ecf0f1;
