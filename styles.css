@@ -31,10 +31,6 @@ header {
     z-index: 2;
 }
 
-/* header:hover {
-    background-color: #ECF0F1; 
-} */
-
 nav ul {
     list-style: none;
     display: flex;
