@@ -198,11 +198,13 @@ input:checked + label:before {
 }
 
 .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 10cm;
-    position: relative;
+    height: 100%;
+    z-index: 1;
     overflow: hidden;
-    margin-bottom: 0cm;
 }
 
 video {
