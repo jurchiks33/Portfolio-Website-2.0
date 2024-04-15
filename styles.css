@@ -147,23 +147,6 @@ footer p {
     margin: 0;
 }
 
-/* #services {
-    padding: 40px 20px;
-    background-color: #e8ebec;
-} */
-
-/* #services {
-    padding: 40px 20px;
-    background-color: #e8ebec;
-    position: relative;
-    clip-path: polygon(
-        0 10%,  
-        100% 0, 
-        100% 90%, 
-        0 100%  
-    );
-} */
-
 #services {
     padding: 40px 20px;
     background-color: #2d2f41; /* Initial lighter space blue color */
@@ -197,25 +180,22 @@ footer p {
     }
 }
 
-/* #services {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-} */
-
-/* .service-container {
+.service-container {
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
-} */
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
 
 .service {
     width: 30%;
     text-align: center;
     transition: transform 0.3s ease-in-out;
 }
-
-/* .service:hover {
-    transform: scale(1.05);
-} */
 
 .icon {
     font-size: 3em;
