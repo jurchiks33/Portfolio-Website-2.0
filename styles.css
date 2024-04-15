@@ -156,12 +156,30 @@ footer p {
     padding: 40px 20px;
     background-color: #e8ebec;
     position: relative;
-    clip-path: polygon(
-        0 10%,  
-        100% 0, 
-        100% 90%, 
-        0 100%  
-    );
+    overflow: hidden;
+    animation: glowEffect 8s infinite alternate;
+}
+
+/* @keyframes glowEffect {
+    0%, 100% {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        background-color: #e8ebec;
+    }
+    50% {
+        box-shadow: 0 4px 20px rgba(255, 255, 255, 0.5);
+        background-color: #ffffff;
+    }
+} */
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.05);
 }
 
 /* #services {
