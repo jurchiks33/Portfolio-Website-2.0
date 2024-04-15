@@ -206,12 +206,21 @@ input:checked + label:before {
     transform: translateX(26px);
 }
 
-.video-container {
+/* .video-container {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 95vh;
+    z-index: 1;
+    overflow: hidden;
+} */
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: auto; 
+    min-height: 95vh; 
     z-index: 1;
     overflow: hidden;
 }
@@ -244,7 +253,7 @@ nav ul {
 .black-background {
     background-color: #000;
     color: #fff;
-    padding-bottom: 7cm;
+    padding-bottom: 4cm;
 }
 
 .white-background {
