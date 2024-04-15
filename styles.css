@@ -178,6 +178,16 @@ footer p {
     );
 }
 
+@keyframes cosmicEffect {
+    0%, 100% {
+        box-shadow: 0 4px 20px rgba(45, 47, 65, 0.5);
+        background-color: #2d2f41; /* Light space blue */
+    }
+    25% {
+        box-shadow: 0 4px 20px rgba(98, 60, 122, 0.5);
+        background-color: #623c7a; /* Soft purple */
+    }
+
 /* #services {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 } */
