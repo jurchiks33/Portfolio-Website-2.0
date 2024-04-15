@@ -187,6 +187,15 @@ footer p {
         box-shadow: 0 4px 20px rgba(98, 60, 122, 0.5);
         background-color: #623c7a; /* Soft purple */
     }
+    50% {
+        box-shadow: 0 4px 20px rgba(112, 81, 161, 0.5);
+        background-color: #7051a1; /* Lighter vibrant purple */
+    }
+    75% {
+        box-shadow: 0 4px 20px rgba(137, 134, 186, 0.5);
+        background-color: #8986ba; /* Light lavender */
+    }
+}
 
 /* #services {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
