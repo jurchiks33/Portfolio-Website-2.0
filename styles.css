@@ -164,7 +164,19 @@ footer p {
     );
 } */
 
-
+#services {
+    padding: 40px 20px;
+    background-color: #2d2f41; /* Initial lighter space blue color */
+    position: relative;
+    overflow: hidden;
+    animation: cosmicEffect 8s infinite alternate;
+    clip-path: polygon(
+        0 10%,  
+        100% 0, 
+        100% 90%, 
+        0 100%  
+    );
+}
 
 /* #services {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
