@@ -161,6 +161,11 @@ footer p {
     );
 }
 
+.service p {
+    color: #ffffff;
+    text-shadow: 0 10px 4px rgba(0, 0, 0, 0.6);
+}
+
 @keyframes cosmicEffect {
     0%, 100% {
         box-shadow: 0 4px 20px rgba(45, 47, 65, 0.5);
