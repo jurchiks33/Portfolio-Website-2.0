@@ -207,6 +207,24 @@ footer p {
     color: #E74C3C;
 }
 
+/* .icon {
+    font-size: 3em;
+    color: #E74C3C;
+    display: inline-block; 
+    animation: rotateIcon 3s linear infinite; 
+}
+
+@keyframes rotateIcon {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+
+
 #testimonials {
     padding: 40px 20px;
 }
